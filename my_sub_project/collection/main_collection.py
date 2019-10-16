@@ -1,4 +1,4 @@
-from my_sub_project.main_celery.celery import app
+from my_sub_project.main_celery.celery_app import app
 
 
 @app.task
